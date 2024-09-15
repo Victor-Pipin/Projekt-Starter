@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* Центрирую по горизонтали, ось Х */
+    align-items: center;
+    /* Центрирую по вертикали, ось Y */
+    justify-content: center;
+    /* Задаю размер высоты, что-бы контент мог оттолкнуться и стать по центру оси Y
+    и сработало свойство justify-content: center. */
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
